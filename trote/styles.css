@@ -64,5 +64,56 @@ body {
     padding: 20px ;
 }
 .missao-valores{
-    
+   background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+.pilar2{
+    background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+.caixas2{
+     width: 500px;
+  height: 150px;
+  background-color: rgb(230, 241, 245);
+  padding: 10px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.2); /*caixa de sombra*/
+  border-radius: 10px;
+  border-left: 5px solid blue;
+  
+}
+.principal2{
+
+    gap: 60px;
+   background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+   display: flex;      /* faz os elementos ficarem lado a lado */
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1); 
+}
+.principal3{
+     gap: 60px;
+   background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+   
+}
+.cards3 {
+  background-color: rgb(241, 243, 241);
+  padding: 10px 15px;
+  height: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  color: rgb(4, 179, 4);
+  display: flex;         
+  align-items: center;     
+  text-align: center;      
 }
