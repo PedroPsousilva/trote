@@ -111,7 +111,7 @@ th {
     background: yellow;
 }
 .cards3 {
-  background-color: rgb(241, 243, 241);
+  background-color: rgb(205, 206, 205);
   padding: 10px 15px;
   height: 20px;
   margin: 5px;
@@ -140,7 +140,7 @@ th {
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 8px;
-    border-left: 5px solid #f77c08;
+    border-left: 5px solid hsl(59, 94%, 50%);
 }
 .tabela{
     color:white;
@@ -154,7 +154,25 @@ footer{
     background-color: #1e3c72;
     color: #ddd;
     padding: 20px;
-    border-width: #ceaf02;
+    border-top:4px solid #ceaf02;
     text-align: center;
+    
 
+}
+.suplemento2{
+     background: #fff8d3;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 5px solid hsl(59, 94%, 50%);
+}
+.box-roxo {
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background: rgb(75, 16, 153);
+}
+.box-cinza {
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background: rgb(152, 152, 153);
 }
