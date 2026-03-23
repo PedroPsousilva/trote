@@ -110,3 +110,51 @@ th {
     border-radius: 4px;
     background: yellow;
 }
+.cards3 {
+  background-color: rgb(241, 243, 241);
+  padding: 10px 15px;
+  height: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  color: rgb(4, 179, 4);
+  display: flex;         
+  align-items: center;     
+  text-align: center;
+}
+.alimentos{
+    color:#ceaf02;
+    border: 2px dashed #f4a623;
+    border-radius: 4px;
+    background: #fff8e6;
+    list-style: none;
+    
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 18px 22px; /* espaço interno parecido com a imagem */
+   
+    
+}
+.suplemento{
+     background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 5px solid #f77c08;
+}
+.tabela{
+    color:white;
+}
+.prova3 h5{
+    color:#ceaf02;
+    font-weight: normal;
+    
+}   
+footer{
+    background-color: #1e3c72;
+    color: #ddd;
+    padding: 20px;
+    border-width: #ceaf02;
+    text-align: center;
+
+}
