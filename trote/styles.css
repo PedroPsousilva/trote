@@ -110,115 +110,253 @@ th {
     border-radius: 4px;
     background: yellow;
 }
-.cards3 {
-  background-color: rgb(205, 206, 205);
-  padding: 10px 15px;
-  height: 20px;
-  margin: 5px;
-  border-radius: 10px;
-  color: rgb(4, 179, 4);
-  display: flex;         
-  align-items: center;     
-  text-align: center;
-}
-.alimentos{
-    color:#ceaf02;
-    border: 2px dashed #f4a623;
-    border-radius: 4px;
-    background: #fff8e6;
-    list-style: none;
-    
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 16px;
-    padding: 18px 22px; /* espaço interno parecido com a imagem */
-   
-    
-}
-.suplemento{
-     background: #fff;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    border-left: 5px solid hsl(59, 94%, 50%);
-}
-.tabela{
-    color:white;
-}
-.prova3 h5{
-    color:#ceaf02;
-    font-weight: normal;
-    
-}   
-footer{
-    background-color: #1e3c72;
-    color: #ddd;
+
+/* aula 23-03 */
+.kit-container {
+     background-color: #fff8e1;
+    border: 2px dashed #ffc107;
     padding: 20px;
-    border-top:4px solid #ceaf02;
-    text-align: center;
-    
-
-}
-.suplemento2{
-     background: #fff8d3;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    border-left: 5px solid hsl(59, 94%, 50%);
-}
-.box-roxo {
-    width: 25px; height: 25px;
-    border-radius: 4px;
-    background: rgb(75, 16, 153);
-}
-.box-cinza {
-    width: 25px; height: 25px;
-    border-radius: 4px;
-    background: rgb(152, 152, 153);
-}
-.evento{
-     margin-bottom: 25px;/*paçamento fora da borda de 25px */  
-     position:relative;/*mve o elemneto HTML sem alterar elementos ao lado */
-}
-.evento::before{/*cia elemento fantasmas - aparece como primeiro  elemento*/
-    content:''; /*modo arquiteto*/
-    width:12px; /*largura da bolinha*/
-    height:12px;    
-    background:red;
-    border-radius:50%;
-    position :absolute;
-    left: -28px ;
-    top: 5px;
-
+    border-radius: 10px;
+    margin: 15px 0;
 }
 
-.timeline{
-    border-left:3px solid blue;
-    padding-left:20px;
-    margin-top:20px;
-
+.lista-itens {
+    list-style: none;
+    padding: 0;
 }
-.grid-locais{}
 
-.form-group{
+.lista-itens li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #856404;
+}
+
+.suplementos {
+    border-left: 5px solid #ff4b2b;
+    background-color: #fff5f5;
+}
+
+/* Destaque para as Provas de Menção Honrosa */
+.memorias-facef, .acao-social, .album-figurinhas {
+    border-left: 5px solid #ffd700; /* Cor dourada para medalhas */
+    background-color: #fffdf0;
+}
+
+/* Estilização do Rodapé */
+footer {
+    background-color: #1e3c72; /* Azul escuro oficial do Uni-FACEF  */
+    color: white; /* Texto em branco para contraste */
+    text-align: center; /* Centraliza as informações de contato */
+    padding: 30px 20px; /* Espaçamento interno para não sufocar o texto */
+    margin-top: 50px; /* Afasta o rodapé do conteúdo principal (main) */
+    font-size: 0.85rem; /* Fonte levemente menor para hierarquia visual */
+    border-top: 4px solid #ffd700; /* Linha dourada discreta no topo do footer */
+}
+
+footer p {
+    margin: 8px 0; /* Espaçamento entre as linhas de texto */
+    opacity: 0.9; /* Deixa o texto suavemente menos brilhante que o menu */
+}
+
+.evento {
+    margin-bottom: 25px; /* espaçamento fora da borda de 25px */
+    position: relative; /* move o elemento HTML sem alterar elementos ao lado */
+}
+
+.evento::before { /* cria elemento fantasma - aparece como primeiro elemento */
+    content: '';
+    width: 12px; /* largura da bolinha */
+    height: 12px; /* altura da bolinha */
+    background: #ff4b2b; /* fundo da bolinha */
+    border-radius: 50%; /* borda da bolinha */
+    position: absolute; /* posição atual do elemento */
+    left: -28px; /* desloca para esquerda */
+    top: 5px; /* desloca para cima */
+}
+
+.timeline {
+     border-left: 3px solid #2a5298; /* borda à esquerda */
+     padding-left: 20px;
+     margin-top: 20px;
+}
+.grid-locais {
+     display: flex; /* fica um lado ao lado do outro - preenche na largura */
+     gap: 20px;
+}
+
+.unidade {
+    flex: 1; /* ocupa toda a área da div */
+    background: #f8f9fa; /* cor de fundo */
+    padding: 15px; /* espaçamento interno */
+    border-radius: 8px; /* raio da borda */
+    border: 1px solid #dee2e6; /* borda */
+}
+
+.unidade h4 {
+    color: #2a5298;
+    margin-top: 0;
+}
+
+/* 30-03 */
+.form-group {
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
-
 }
-input{
+
+input {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
     width: 100px;
 }
-button{
-     background-color: #27ae60;
+
+button {
+    background-color: #27ae60;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+}
 
+.resultado-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eef5ff;
+    border-left: 5px solid #1e3c72;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.etapas{
+    display: flex;
+    gap: 20px;
+}
+table {
+    width: 100%; border-collapse: collapse; margin-top: 20px;
+    background-color: white;
+}
+
+th, td {
+    padding: 15px; text-align: left; border-bottom: none;
+}
+
+th {
+    background-color: #2a5298;
+}
+.tabela2{
+    color:#e9f7ef
+
+}
+.tabela-provas td {
+    color: #d4a017; /* amarelo */
+}
+.premiacao {
+    background-color: #f5f1e6; /* bege claro */
+    border-left: 5px solid #ffd700; /* dourado */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.premiacao h3 {
+    margin-top: 0;
+}
+
+.premiacao p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.lista-premiacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    background-color: #dfe6ef; /* cinza azulado */
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 5px solid #2a5298; /* azul */
+}
+
+.info-gerais {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.homenagem {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.regras {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.regras li {
+    margin-bottom: 10px;
+    color: #a87400; /* amarelo/laranja */
+}
+
+
+.tabela-avaliacao {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.tabela-avaliacao th {
+    background-color: #2a5298;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabela-avaliacao td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+/* Cards brancos com sombra */
+.competicao {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Lista de critérios em dourado */
+.criterios-lista li {
+    color: #b8860b;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 5px;
+}
+
+/* Borda amarela lateral do último card */
+.destaque-amarelo {
+    border-left: 6px solid #ffd700;
+}
+
+/* Espaçamento do aviso importante */
+.notaimportante {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+/* Estilo geral para os títulos dentro dos cards */
+.competicao h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
