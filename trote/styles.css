@@ -1,4 +1,3 @@
-body {
     margin: 0; font-family: 'Segoe UI', sans-serif;
     background-color: #f4f7f6; color: #333;
 }
@@ -204,7 +203,7 @@ footer p {
     flex-direction: column;
 }
 
-input , select {
+input, select {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -228,135 +227,4 @@ button {
     border-left: 5px solid #1e3c72;
     font-weight: bold;
     font-size: 1.2rem;
-}
-.etapas{
-    display: flex;
-    gap: 20px;
-}
-table {
-    width: 100%; border-collapse: collapse; margin-top: 20px;
-    background-color: white;
-}
-
-th, td {
-    padding: 15px; text-align: left; border-bottom: none;
-}
-
-th {
-    background-color: #2a5298;
-}
-.tabela2{
-    color:#e9f7ef
-
-}
-.tabela-provas td {
-    color: #d4a017; /* amarelo */
-}
-.premiacao {
-    background-color: #f5f1e6; /* bege claro */
-    border-left: 5px solid #ffd700; /* dourado */
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-.premiacao h3 {
-    margin-top: 0;
-}
-
-.premiacao p {
-    margin-bottom: 15px;
-    line-height: 1.5;
-}
-
-.lista-premiacao {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.item {
-    background-color: #dfe6ef; /* cinza azulado */
-    padding: 12px;
-    border-radius: 6px;
-    border-left: 5px solid #2a5298; /* azul */
-}
-
-.info-gerais {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.homenagem {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.regras {
-    list-style: none;
-    padding: 0;
-    margin-top: 15px;
-}
-
-.regras li {
-    margin-bottom: 10px;
-    color: #a87400; /* amarelo/laranja */
-}
-
-
-.tabela-avaliacao {
-    width: 100%;
-    margin-top: 20px;
-    border-collapse: collapse;
-}
-
-.tabela-avaliacao th {
-    background-color: #2a5298;
-    color: white;
-    padding: 12px;
-    text-align: left;
-}
-
-.tabela-avaliacao td {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-}
-/* Cards brancos com sombra */
-.competicao {
-    background: #ffffff;
-    padding: 25px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-}
-
-/* Lista de critérios em dourado */
-.criterios-lista li {
-    color: #b8860b;
-    font-weight: bold;
-    list-style: none;
-    margin-top: 5px;
-}
-
-/* Borda amarela lateral do último card */
-.destaque-amarelo {
-    border-left: 6px solid #ffd700;
-}
-
-/* Espaçamento do aviso importante */
-.notaimportante {
-    margin-top: 15px;
-    line-height: 1.5;
-}
-
-/* Estilo geral para os títulos dentro dos cards */
-.competicao h3 {
-    margin-top: 0;
-    font-size: 1.2rem;
-    display: flex;
-    align-items: center;
-    gap: 10px;
 }
