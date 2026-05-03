@@ -63,10 +63,15 @@ section {
     display: flex;
     gap: 20px;
 }
+.etapas{
+    display: flex;
+    gap:20px
+}
 .card-meta {
    
     flex: 1; background: #eef5ff; padding: 15px; border-left: 5px solid #2a5298;
     border-radius: 8px;
+    
 }
 .recompensas ul {
     list-style: none;
@@ -109,6 +114,41 @@ th {
     width: 25px; height: 25px;
     border-radius: 4px;
     background: yellow;
+}
+.box-preta {
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background: black;
+}
+.box-marrom {
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background: maroon;
+}
+.box-verde {
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background: greenyellow;
+}
+.box-cinza {
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background: rgb(187, 183, 183);
+}
+.box-vermelha {
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background: red;
+}
+.box-laranja {
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background: orange;
+}
+.box-rosa {
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background: pink;
 }
 
 /* aula 23-03 */
@@ -228,4 +268,120 @@ button {
     border-left: 5px solid #1e3c72;
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+.premiacao {
+    background-color: #f5f1e6;
+    border-left: 5px solid #ffd700;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+
+.premiacao p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+
+.lista-premiacao {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.lista-premiacao .item {
+    background-color: #d6dde8;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border-left: 5px solid #2a5298;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.lista-premiacao .item:hover {
+    background-color: #c5cfdd;
+    transform: translateX(5px);
+}
+.etapas .card-meta{
+    background-color: #d6dde8;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border-left: 5px solid #2a5298;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.etapas .card-meta:hover{
+    background-color: #c5cfdd;
+    transform: translateX(5px);
+}
+.cabecalho-logo {
+    width: 300px;       /* largura fixa */
+    height: 200px;      /* altura fixa */
+    object-fit: cover;  /* corta a imagem sem distorcer */
+    border-radius: 10px;
+    transition: opacity 0.5s ease;
+}
+
+.lista-valores li{
+    background-color: #d6dde8;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border-left: 5px solid #2a5298;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.lista-valores li:hover{
+    background-color: #c5cfdd;
+    transform: translateX(5px);
+}
+.principal {
+    transition: all 0.3s ease;
+}
+
+html.is-animating .principal {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+
+.importante .card-meta{
+    background-color: #d6dde8;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border-left: 5px solid #2a5298;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.importante .card-meta:hover{
+    background-color: #c5cfdd;
+    transform: translateX(5px);
+}
+.menu-logo {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: transparent; /* tira o preenchimento */
+    -webkit-text-stroke: 2px white; /* contorno branco */
+}
+
+.boneco-topo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.boneco-topo img {
+    width: 200px;
+    transition: 0.3s;
+}
+
+.boneco-topo img:hover {
+    transform: scale(1.05);
 }
